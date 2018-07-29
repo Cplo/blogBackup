@@ -40,7 +40,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace:
   
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: indigo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,6 +81,11 @@ deploy:
   type: git
   repo: https://github.com/Cplo/Cplo.github.io.git
   branch: master
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
 
 jsonContent:
    meta: false
